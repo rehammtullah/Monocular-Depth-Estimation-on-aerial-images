@@ -4,7 +4,6 @@ In the case of aerial imagery, this ground truth is particularly difficult to ac
 Therefore, in this paper we present a method for self-supervised learning for monocular depth estimation from aerial imagery that does not require annotated training data. 
 For this, we only use an image sequence from a single moving camera and learn to simultaneously estimate depth and pose information. 
 By sharing the weights between pose and depth estimation, we achieve a relatively small model, which favors real-time application. 
-<img src='results_on_synthetic_dataset.png' width=1000>
 
 
 Install packages :
