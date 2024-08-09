@@ -1,0 +1,11 @@
+with open('Out_file.txt', r) as f:
+	full_text = f.readlines()
+
+name_id = x.split(".")[0] for x in full_text
+
+	
+for i in range(len(full_text)):
+	with open('new_train_1.txt', w) as wrt:
+		wrt.write(name_id[i])
+	i += 2	
+
